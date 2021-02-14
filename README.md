@@ -29,7 +29,9 @@ To overcome the lack of a publically available dataset for this task, for the ha
 
 To understand the training process, please training code [readme file](https://github.com/Samradh007/sleeplessAcademy/blob/main/training/Readme.md).
 
+<img src="https://github.com/Samradh007/sleeplessAcademy/blob/main/assets/python_test.gif" width="360" alt="Inference">
 
+###### Fig 3: Inference
 
 ## WebApp Quick Start
 
