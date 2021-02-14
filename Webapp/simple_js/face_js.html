@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Face Mesh Again</title>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+        <script src="https://unpkg.com/@tensorflow/tfjs-core@2.4.0/dist/tf-core.js"></script>
+        <script src="https://unpkg.com/@tensorflow/tfjs-converter@2.4.0/dist/tf-converter.js"></script>
+        <script src="https://unpkg.com/@tensorflow/tfjs-backend-webgl@2.4.0/dist/tf-backend-webgl.js"></script>
+        <script src="https://unpkg.com/@tensorflow-models/face-landmarks-detection@0.0.1/dist/face-landmarks-detection.js"></script>
+        <script src="face_JS5.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="video">
+                <video id="videoElement" autoplay="true" style="height:300px ; width: 300px;"></video>
+            </div>
+            <canvas id="outputCanvas" style="height:300px ; width: 300px;"></canvas>
+            <!-- <canvas id="outputCanvas"></canvas> -->
+        </div>
+        <div style="margin-top: 10px;">
+            <div id="btns">
+                <button id="start-model-btn" style="margin-right: 2px;" onclick="startModel()">Start Model</button>
+                <button id="stop-model-btn" style="margin-right: 2px;" onclick="stopModel()">Stop Model</button>
+                <button id="start-calib-btn" style="margin-right: 2px;" onclick="startCalib()">Calibrate</button>
+            </div>
+        </div>
+        <div id="result_div" style="margin-top: 10px;">
+            <p style="margin-right: 2px;" id="state_para"></p>
+            <p style="margin-right: 2px;" id="gaze_para"></p>
+        </div>
+    </body>
+</html>

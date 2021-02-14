@@ -1,0 +1,4 @@
+# Procfile.dev - development
+
+# For the Flask development server.
+web: python app.py

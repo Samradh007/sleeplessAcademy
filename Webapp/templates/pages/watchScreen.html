@@ -1,0 +1,64 @@
+{% extends 'layouts/main.html' %} {% block title %}Course Video{% endblock %} {%
+block content %}
+
+<div class="page-header" style="text-align: left">
+  <h1>{{ video_title }}</h1>
+</div>
+
+<div id="container">
+  <div class="row">
+    <div class="col-lg-9 align-self-center m-auto">
+      <video
+        id="player"
+        data-yt2html5="{{ yt_url }}"
+        width="100%"
+        height="100%"
+        controls="true"
+      ></video>
+    </div>
+
+    <div class="col-lg-3 align-self-end">
+      <h3 id=""></h3>
+      <div style="height: 33%; width: 100%">
+        <select class="switcher" id="modelType" name="Detection Model">
+          <option value="0" selected="selected">Manual</option>
+          <option value="1">Python_RF</option>
+          <option value="2">Pytorch_LSTM</option>
+        </select>
+        <button class="switcher" onclick="startCalib()">Calibrate</button>
+        <p id="timer"></p>
+        <div id="result_div" style="margin-top: 10px">
+          <p style="margin-right: 2px" id="state_para"></p>
+          <p style="margin-right: 2px" id="gaze_para"></p>
+          <p style="margin-right: 2pX" id="labelForModel"></p>
+        </div>
+        <h3 class="switcher">Alert-inator</h3>
+        <label class="switch">
+          <input id="modelSwitch" type="checkbox" onclick="triggerModel()" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div>
+      <video
+        class="webStream"
+        style="height: 33%; width: 100%; display: none;"
+      ></video>
+      <canvas class="outputCanvas" style="height: 33%; width: 100%"></canvas>
+    </div>
+    </div>
+  </div>
+</div>
+
+<br /><br />
+<meta charset="utf-8">
+<script src="https://cdn.jsdelivr.net/gh/thelevicole/youtube-to-html5-loader@2.0.0/dist/YouTubeToHtml5.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js" crossorigin="anonymous"></script>
+<script src="/static/js/face_JS7.js"></script>
+<script>
+  new YouTubeToHtml5();
+</script>
+
+{% endblock %}
