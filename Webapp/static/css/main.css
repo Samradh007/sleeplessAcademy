@@ -1,0 +1,173 @@
+
+/**
+ * @file
+ * Main stylesheet file.
+ */
+
+
+/*****************************************************************************
+ * Main elements
+ ****************************************************************************/
+html {
+  overflow-y: scroll;
+}
+a {
+  cursor: pointer;
+}
+::selection {
+  background: #555;
+  color: #FFF;
+}
+::-moz-selection {
+  background: #555;
+  color: #FFF;
+}
+::-webkit-selection {
+  background: #555;
+  color: #FFF;
+}
+/* Main elements end */
+
+
+/*****************************************************************************
+ * Various other styles
+ ****************************************************************************/
+/* video.webcam {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(83, 247, 184);
+  border-radius: 4px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+img.settings-image {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ */
+
+ .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (min-width:992px) {
+  .col-lg-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
+
+@media (min-width:992px) {
+  .col-lg-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.m-auto {
+  margin: auto!important;
+}
+
+.align-self-center {
+  -ms-flex-item-align: center!important;
+  align-self: center!important;
+}
+
+.align-self-end {
+  -ms-flex-item-align: end!important;
+  align-self: flex-end!important;
+}
+
+
+/* Slider */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-bottom: 2px;
+}
+
+.switcher {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  height: 34px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* Various other styles end */
