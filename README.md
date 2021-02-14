@@ -52,6 +52,13 @@ To understand the training process, please training code [readme file](https://g
 4. Navigate to [http://localhost:5000](http://localhost:5000)
 
 
+<img src="https://github.com/Samradh007/sleeplessAcademy/blob/main/assets/Video%20screen%20with%20Detection.png" width="720" alt="Detection"> 
+
+###### Fig 3: Webapp Prediction
+
+
+
+
 ## Future Aspects:
 
 Detecting drowsiness and providing alerts to the user is helpful. We believe that engaging the student with small games when detected drowsy state can help better engage the student and reduce the Zoom Fatigue.
