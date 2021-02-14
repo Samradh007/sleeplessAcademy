@@ -58,6 +58,27 @@ To understand the training process, please training code [readme file](https://g
 
 ###### Fig 3: Webapp Prediction
 
+## Webapp Demo:
+
+<img src="https://github.com/Samradh007/sleeplessAcademy/blob/main/assets/Navigation.gif" width="720" alt="Navigation"> 
+
+###### Fig 4: App Navigation
+
+
+<img src="https://github.com/Samradh007/sleeplessAcademy/blob/main/assets/Calibration.gif" width="720" alt="Calibration"> 
+
+###### Fig 5: Calibration
+
+
+<img src="https://github.com/Samradh007/sleeplessAcademy/blob/main/assets/Manual%20model.gif" width="720" alt="Inference Model 1"> 
+
+###### Fig 6: Model 1 (Manual Thresholding) Inference
+
+
+<img src="https://github.com/Samradh007/sleeplessAcademy/blob/main/assets/LSTM.gif" width="720" alt="Inference Model 1"> 
+
+###### Fig 7: Model 3 (LSTM) Inference
+
 
 
 
