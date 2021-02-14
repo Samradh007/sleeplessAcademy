@@ -14,20 +14,21 @@ Using Artificial Intelligence, the Snooze You Looze tool analyzes the student vi
 
 The tool uses [Google's MediaPipe](https://google.github.io/mediapipe/) model for detecting a face in the video stream. As this model runs on the browser (on the user's side), no video frame is ever sent to the server, protecting user privacy. 
 
-<img src="https://raw.githubusercontent.com/Samradh007/Snooze_You_Loose/master/assets/face_mesh.jpg?token=AI2XX7HYMRZQXXGNB2FXWW3AFFRBC" width="250" alt="FaceMesh-Output">
+<img src="https://github.com/Samradh007/sleeplessAcademy/blob/main/assets/face_mesh.jpg" width="250" alt="FaceMesh-Output">
 
 ###### Fig 1: FaceMesh MediaPipe Output
 
 Features based on facial landmark positions are calculated and are then sent over to the server. At the server, Deep Learning or Machine Learning models are used to provide classification scores for the facial features. 
 
-<img src="https://raw.githubusercontent.com/Samradh007/Snooze_You_Loose/master/assets/alert_0.jpg?token=AI2XX7ET3N3MGLKYJI3LAH3AFFRMU" width="720" alt="Alert Prediction"> 
-<img src="https://raw.githubusercontent.com/Samradh007/Snooze_You_Loose/master/assets/drowsy_0.jpg?token=AI2XX7DI3WOQZ5P2YNCO3XTAFFROI" width="720" alt="Drowsy Prediction">
+<img src="https://github.com/Samradh007/sleeplessAcademy/blob/main/assets/alert_0.jpg" width="720" alt="Alert Prediction"> 
+<img src="https://github.com/Samradh007/sleeplessAcademy/blob/main/assets/drowsy_0.jpg" width="720" alt="Drowsy Prediction">
 
 ###### Fig 2: Alert, Drowsy Prediction 
 
 To overcome the lack of a publically available dataset for this task, for the hackathon we collected a dataset and trained models using the same. The dataset is available for use [here](https://drive.google.com/drive/folders/1aryWCejRbGSKL75a4LhmK3QosFfeOklb?usp=sharing). At present, three different models are provided which can be changed at run-time to see the functioning. 
 
-To understand the training process, please training code [readme file](https://github.com/Samradh007/Snooze_You_Loose/blob/master/training/Readme.md).
+To understand the training process, please training code [readme file](https://github.com/Samradh007/sleeplessAcademy/blob/main/training/Readme.md).
+
 
 
 ## WebApp Quick Start
