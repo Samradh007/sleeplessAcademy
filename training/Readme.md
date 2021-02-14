@@ -8,8 +8,8 @@ The dataset is available for use [here](https://drive.google.com/drive/folders/1
 
 As described in the project methodology, the tool uses Google MediaPipe model to detect and track face landmarks. This model is highly robust and provides features in almost all cases. 
 
-<img src="https://raw.githubusercontent.com/Samradh007/Snooze_You_Loose/master/assets/face2.jpg?token=AI2XX7DXKFZO62K5VJ7SNVDAFFSGC" width="600" alt="CycleGAN model">
-<img src="https://raw.githubusercontent.com/Samradh007/Snooze_You_Loose/master/assets/face1.jpg?token=AI2XX7D2SSZZXTP7P7UP5O3AFFSEY" width="600" alt="CycleGAN model">
+<img src="https://github.com/Samradh007/sleeplessAcademy/blob/main/assets/face2.jpg" width="600" alt="Spectacles viddeo feed"/>
+<img src="https://github.com/Samradh007/sleeplessAcademy/blob/main/assets/face1.jpg" width="600" alt="Low quality video feed"/>
 
 
 ###### Figure 1: Spectacles, Poor Quality Video feed
