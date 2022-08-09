@@ -25,7 +25,7 @@ Features based on facial landmark positions are calculated and are then sent ove
 
 ###### Fig 2: Alert, Drowsy Prediction 
 
-To overcome the lack of a publically available dataset for this task, for the hackathon we collected a dataset and trained models using the same. The dataset is available for use [here](https://drive.google.com/drive/folders/1aryWCejRbGSKL75a4LhmK3QosFfeOklb?usp=sharing). At present, three different models are provided which can be changed at run-time to see the functioning. 
+At present, three different models are provided which can be changed at run-time to see the functioning. 
 
 To understand the training process, please training code [readme file](https://github.com/Samradh007/sleeplessAcademy/blob/main/training/Readme.md).
 
