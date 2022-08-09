@@ -4,7 +4,6 @@ For the hackathon, we collected our dataset which covers three classes:
 1. **Alert**: User is looking at the laptop while studying or working. 
 2. **Drowsy**: User is in a drowsy state, expressed by closing eyes, yawning, rubbing eyes. 
 3. **Distracted**: User is distracted, expressed by gazing elsewhere, using a mobile phone. 
-The dataset is available for use [here](https://drive.google.com/drive/folders/1aryWCejRbGSKL75a4LhmK3QosFfeOklb?usp=sharing). 
 
 As described in the project methodology, the tool uses Google MediaPipe model to detect and track face landmarks. This model is highly robust and provides features in almost all cases. 
 
